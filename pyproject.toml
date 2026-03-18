@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "overvue"
+version = "0.1.0"
+description = "Cross-platform system monitoring CLI toolkit"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+    "psutil>=5.9",
+    "humanize>=4.0",
+    "py-cpuinfo>=9.0",
+    "colorama>=0.4",
+]
+authors = [
+    {name = "Overvue Team"}
+]
+keywords = ["system", "monitoring", "cli", "cross-platform", "administration"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+overvue = "overvue.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/overvue/overvue"
+Repository = "https://github.com/overvue/overvue"
+Issues = "https://github.com/overvue/overvue/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["overvue*"]
+
+[tool.setuptools.package-data]
+overvue = ["py.typed"]
