@@ -202,3 +202,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to all contributors who make this project possible
 - Built with amazing open-source libraries like [Rich](https://github.com/Textualize/rich) and [psutil](https://github.com/giampaolo/psutil)
 - Inspired by system monitoring tools across different platforms
+
+
+<img width="1414" height="1142" alt="Captura de pantalla 2026-03-17 202815" src="https://github.com/user-attachments/assets/0b6e6b90-016a-4061-91c8-887f7f6404a0" />
