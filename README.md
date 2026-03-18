@@ -205,3 +205,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 <img width="1414" height="1142" alt="Captura de pantalla 2026-03-17 202815" src="https://github.com/user-attachments/assets/0b6e6b90-016a-4061-91c8-887f7f6404a0" />
+
+<img width="936" height="487" alt="image" src="https://github.com/user-attachments/assets/501c4b15-dd4b-45a1-b341-e150b27302f6" />
